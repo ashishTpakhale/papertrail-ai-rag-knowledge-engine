@@ -1,0 +1,23 @@
+# Local Environment Variables (Crucial to never commit!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency Folders (From both root, backend, and frontend)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Production Build Artifacts
+dist/
+frontend/dist/
+backend/dist/
+
+# System / IDE Files
+.DS_Store
+.vscode/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
