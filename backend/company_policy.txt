@@ -1,0 +1,8 @@
+[SECTION 101: CORE INFRASTRUCTURE]
+The corporate primary staging infrastructure for 2026 runs exclusively on decentralized Node.js v22 container environments managed by Kubernetes. The architecture uses Redis clusters running on port 6389 for standard session caching. 
+
+[SECTION 102: ARCHITECTURE LEADERSHIP]
+The Principal Software Architect overseening the transition is Sarah Jenkins. Any architectural migrations modifying standard network protocols must clear her desk before deployment.
+
+[SECTION 103: INCIDENT RESPONSE PLAN]
+In the event of an asynchronous race condition or a sudden memory leak, the on-call Site Reliability Engineer (SRE) must immediately drop everything and execute the server command: 'npm run flush-cache-v2'. Never trigger a hard container restart manually unless memory exhaustion breaches 92%.
